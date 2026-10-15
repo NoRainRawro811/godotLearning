@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bq4116qb5frwo"
-path="res://.godot/imported/Cactus_Small_Double.png-15a299a527784c91232eea2f9eb017cc.ctex"
+uid="uid://byuf036i6y6ea"
+path="res://.godot/imported/Cactus_Small_Double.png-16e6840ecb2cb55e54a870b7224b42a5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/Cactus_Small_Double.png"
-dest_files=["res://.godot/imported/Cactus_Small_Double.png-15a299a527784c91232eea2f9eb017cc.ctex"]
+source_file="res://Assets/sprites/Cactus_Small_Double.png"
+dest_files=["res://.godot/imported/Cactus_Small_Double.png-16e6840ecb2cb55e54a870b7224b42a5.ctex"]
 
 [params]
 

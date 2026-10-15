@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://br5oe3otmbxef"
-path="res://.godot/imported/Pterodactyl_02.png-51edf7a3a336bc16250c93ce1330f823.ctex"
+uid="uid://dfidl4qflywep"
+path="res://.godot/imported/Pterodactyl_02.png-879b247730b1f0b9b6b24f9832aa2d50.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/Pterodactyl_02.png"
-dest_files=["res://.godot/imported/Pterodactyl_02.png-51edf7a3a336bc16250c93ce1330f823.ctex"]
+source_file="res://Assets/sprites/Pterodactyl_02.png"
+dest_files=["res://.godot/imported/Pterodactyl_02.png-879b247730b1f0b9b6b24f9832aa2d50.ctex"]
 
 [params]
 

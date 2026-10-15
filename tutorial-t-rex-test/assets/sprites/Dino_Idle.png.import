@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://df787xasi8517"
-path="res://.godot/imported/Dino_Idle.png-c894c96500fbf7871db235fb3906352e.ctex"
+uid="uid://cuvyi527qd2os"
+path="res://.godot/imported/Dino_Idle.png-8709d80223cf08f86d37c904f092d099.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/Dino_Idle.png"
-dest_files=["res://.godot/imported/Dino_Idle.png-c894c96500fbf7871db235fb3906352e.ctex"]
+source_file="res://Assets/sprites/Dino_Idle.png"
+dest_files=["res://.godot/imported/Dino_Idle.png-8709d80223cf08f86d37c904f092d099.ctex"]
 
 [params]
 
