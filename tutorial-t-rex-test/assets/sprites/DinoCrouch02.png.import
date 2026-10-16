@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxlu6vgo3t4e0"
-path="res://.godot/imported/DinoCrouch02.png-364b1450b47bd4879def1d03a176bcb2.ctex"
+path="res://.godot/imported/DinoCrouch02.png-75f28d15938bf766c610bb8873faa484.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/DinoCrouch02.png"
-dest_files=["res://.godot/imported/DinoCrouch02.png-364b1450b47bd4879def1d03a176bcb2.ctex"]
+source_file="res://assets/sprites/DinoCrouch02.png"
+dest_files=["res://.godot/imported/DinoCrouch02.png-75f28d15938bf766c610bb8873faa484.ctex"]
 
 [params]
 

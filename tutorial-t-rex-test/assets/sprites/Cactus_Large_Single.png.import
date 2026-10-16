@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mbhsrgbryrxb"
-path="res://.godot/imported/Cactus_Large_Single.png-b39d93905c1687814208a9d7d1cdb21c.ctex"
+path="res://.godot/imported/Cactus_Large_Single.png-28f8b4075a1b8073ffb375a521684d80.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/Cactus_Large_Single.png"
-dest_files=["res://.godot/imported/Cactus_Large_Single.png-b39d93905c1687814208a9d7d1cdb21c.ctex"]
+source_file="res://assets/sprites/Cactus_Large_Single.png"
+dest_files=["res://.godot/imported/Cactus_Large_Single.png-28f8b4075a1b8073ffb375a521684d80.ctex"]
 
 [params]
 
