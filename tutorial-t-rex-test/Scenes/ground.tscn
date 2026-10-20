@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://x3vkc63mpjnr"]
+
+[ext_resource type="Script" uid="uid://ckp83k4yaex6c" path="res://Scripts/Ground.cs" id="1_02qk3"]
+[ext_resource type="Texture2D" uid="uid://dd1y2451x5khq" path="res://Assets/sprites/Ground.png" id="1_688p1"]
+[ext_resource type="Shape2D" uid="uid://cm5waph21k00c" path="res://CollisionShapes/Ground.tres" id="2_oltiy"]
+
+[node name="Ground" type="Node2D" unique_id=927674324]
+script = ExtResource("1_02qk3")
+
+[node name="Ground_1" type="StaticBody2D" parent="." unique_id=1303944456]
+
+[node name="GroundSprite" type="Sprite2D" parent="Ground_1" unique_id=1437081213]
+texture = ExtResource("1_688p1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground_1" unique_id=1256410262]
+position = Vector2(0, 36)
+shape = ExtResource("2_oltiy")
+
+[node name="Ground_2" type="StaticBody2D" parent="." unique_id=1687637094]
+position = Vector2(2400, 0)
+
+[node name="GroundSprite" type="Sprite2D" parent="Ground_2" unique_id=1417022619]
+texture = ExtResource("1_688p1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground_2" unique_id=1497060407]
+position = Vector2(0, 36)
+shape = ExtResource("2_oltiy")

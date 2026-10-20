@@ -1,6 +1,11 @@
 [gd_scene format=3 uid="uid://drujc2p04n5l4"]
 
-[ext_resource type="Script" uid="uid://dxd054ubr3427" path="res://Scripts/main.cs" id="1_jjgbg"]
+[ext_resource type="Script" uid="uid://b8tve7mfv1p7o" path="res://Scripts/Main.cs" id="1_jjgbg"]
+[ext_resource type="PackedScene" uid="uid://x3vkc63mpjnr" path="res://Scenes/ground.tscn" id="2_bo1nx"]
 
 [node name="main" type="Node" unique_id=1272230175]
 script = ExtResource("1_jjgbg")
+
+[node name="Ground" parent="." unique_id=927674324 instance=ExtResource("2_bo1nx")]
+position = Vector2(1200, 580)
+_speed = -500.0
