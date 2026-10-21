@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://6cwvc0uhw8y1"]
+
+[ext_resource type="Script" uid="uid://bh3bw1qsatcwj" path="res://Scripts/Player.cs" id="1_8erm5"]
+[ext_resource type="Texture2D" uid="uid://cuvyi527qd2os" path="res://Assets/sprites/Dino_Idle.png" id="1_v0iea"]
+[ext_resource type="Texture2D" uid="uid://yt8ociyl58pr" path="res://Assets/sprites/DinoCrouch01.png" id="2_f1ek2"]
+[ext_resource type="Texture2D" uid="uid://dxlu6vgo3t4e0" path="res://Assets/sprites/DinoCrouch02.png" id="3_tx1dd"]
+[ext_resource type="Texture2D" uid="uid://cxh0x1libn2tl" path="res://Assets/DinoDead.png" id="4_gymyn"]
+[ext_resource type="Texture2D" uid="uid://coj6eldxkld7x" path="res://Assets/sprites/Dino_Run01.png" id="6_pu2lt"]
+[ext_resource type="Texture2D" uid="uid://byw8fidl37s58" path="res://Assets/sprites/Dino_Run02.png" id="7_ukyrk"]
+[ext_resource type="Shape2D" uid="uid://dolup8xqsj06g" path="res://CollisionShapes/dino/dino_crouching.tres" id="8_7dp3o"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_h4t2p"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_f1ek2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_tx1dd")
+}],
+"loop": 1,
+"name": &"crouch",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_gymyn")
+}],
+"loop": 1,
+"name": &"dead",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_v0iea")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_pu2lt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ukyrk")
+}],
+"loop": 1,
+"name": &"run",
+"speed": 10.0
+}]
+
+[node name="Player" type="CharacterBody2D" unique_id=1040287230]
+script = ExtResource("1_8erm5")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1121130021]
+position = Vector2(0, -48)
+sprite_frames = SubResource("SpriteFrames_h4t2p")
+animation = &"crouch"
+frame_progress = 0.390443
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1952218370]
+position = Vector2(0, -47)
+shape = ExtResource("8_7dp3o")
