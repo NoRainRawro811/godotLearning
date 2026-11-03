@@ -99,6 +99,7 @@ animations = [{
 radius = 5.0
 
 [node name="Coin" type="Area2D" unique_id=1186681890]
+collision_mask = 2
 script = ExtResource("1_jgi06")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1218728825]
@@ -108,3 +109,5 @@ autoplay = "coin"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=330630392]
 shape = SubResource("CircleShape2D_h4t2p")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
