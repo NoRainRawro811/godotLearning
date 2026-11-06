@@ -32,17 +32,13 @@ func _physics_process(delta: float) -> void:
 	# Play animations 
 	if is_on_floor():
 		if direction == 0:
-			animated_sprite.play(\"run\")
+			animated_sprite.play(\"idle\")
 		else:
 			animated_sprite.play(\"run\")
 	else:
 		animated_sprite.play(\"jump\")
 	
-	if direction == 0:
-		animated_sprite.play(\"idle\")
-	else:
-		animated_sprite.play(\"run\")
-	
+	# apply movement 
 	if direction:
 		velocity.x = direction * SPEED
 	else:
@@ -229,6 +225,7 @@ position = Vector2(0, -12)
 sprite_frames = SubResource("SpriteFrames_y3va0")
 animation = &"jump"
 autoplay = "idle"
+frame_progress = 0.15184642
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1796558640]
 position = Vector2(0, -6)
